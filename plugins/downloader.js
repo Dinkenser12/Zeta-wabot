@@ -214,9 +214,9 @@ command(
   },
   async (message, match) => {
     match = match || message.reply_message.text
-   if (!match)return message.reply(`*_Need instagram Link_*`)
+   if (!match)return message.reply(`*_INSTA LINK THA FUNDE🙂_*`)
 let {data} = await getJson(`https://api-aswin-sparky.koyeb.app/api/downloader/igdl?url=${match}`)
-await message.sendFromUrl(`${data[0].url}`, {caption: "*zetaahhhh👀*"})
+await message.sendFromUrl(`${data[0].url}`, {caption: "*Zᴇɴɪᴛꜱᴜʜʜʜ🦋*"})
 });
 // Zeta-XD
 
